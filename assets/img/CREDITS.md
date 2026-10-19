@@ -31,7 +31,7 @@ All video clips sourced from Pexels, trimmed and re-compressed for web delivery 
 | hero-fort.mp4 | [video/37092098](https://www.pexels.com/video/37092098/) | Jaisalmer Fort in golden twilight |
 | day1-haveli.mp4 | [video/36960111](https://www.pexels.com/video/36960111/) | Scenic view of Jaisalmer Fort under blue sky |
 | day2-dunes.mp4 | [video/19797595](https://www.pexels.com/video/19797595/) | Sand dunes with footprints at sunset |
-| day2-kalbelia.mp4 | [video/30858228](https://www.pexels.com/video/30858228/) | Traditional performer in costume, outdoor cultural setting |
+| day2-folkdance.mp4 | [video/36591889](https://www.pexels.com/video/36591889/) | Woman in a flowing skirt twirling at a heritage site in Jaipur, Rajasthan — general Rajasthani folk-dance style, not a specific named tradition |
 | day3-camel.mp4 | [video/5977848](https://www.pexels.com/video/5977848/) | Herd of camels wandering sunlit desert |
 | stay-hotel.mp4 | [video/19403230](https://www.pexels.com/video/19403230/) | Modern hotel room |
 | stay-homestay.mp4 | [video/34732091](https://www.pexels.com/video/34732091/) | Rural Indian village scene |
