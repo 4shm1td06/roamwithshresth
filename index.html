@@ -29,6 +29,7 @@
         <a href="#day-1">Day One</a>
         <a href="#day-2">Day Two</a>
         <a href="#day-3">Day Three</a>
+        <a href="#stay-types">Where You'll Stay</a>
         <a href="#upgrades">Upgrades</a>
         <a href="#included">What's Included</a>
       </nav>
@@ -36,7 +37,11 @@
   </header>
 
   <section class="hero" id="top">
-    <img class="hero-img" src="assets/img/web/hero-fort.webp" alt="Sandstone ramparts of Jaisalmer Fort glowing gold at sunset" />
+    <video class="hero-video" autoplay muted loop playsinline
+      poster="assets/video/poster/hero-fort.webp"
+      aria-label="Sandstone ramparts of Jaisalmer Fort glowing gold at sunset">
+      <source src="assets/video/web/hero-fort.mp4" type="video/mp4" />
+    </video>
     <div class="hero-scrim"></div>
     <div class="hero-content">
       <p class="hero-eyebrow">A route through the desert</p>
@@ -62,7 +67,11 @@
     <h2 id="day-grid-heading" class="visually-hidden">Itinerary Overview</h2>
     <article class="day-card">
       <a href="#day-1" class="day-card-img-wrap">
-        <img src="assets/img/web/day1-haveli.webp" alt="Carved sandstone facade of Patwon Ki Haveli" loading="lazy" />
+        <video class="day-card-video lazy-video" muted loop playsinline
+          poster="assets/video/poster/day1-haveli.webp"
+          aria-label="Carved sandstone facade of Patwon Ki Haveli">
+          <source data-src="assets/video/web/day1-haveli.mp4" type="video/mp4" />
+        </video>
       </a>
       <p class="day-card-kicker">Day One</p>
       <h3>Golden Fort &amp; Local Sightseeing</h3>
@@ -73,7 +82,11 @@
 
     <article class="day-card">
       <a href="#day-2" class="day-card-img-wrap">
-        <img src="assets/img/web/day2-dunes.webp" alt="Sam Sand Dunes at sunset near Jaisalmer" loading="lazy" />
+        <video class="day-card-video lazy-video" muted loop playsinline
+          poster="assets/video/poster/day2-dunes.webp"
+          aria-label="Sam Sand Dunes at sunset near Jaisalmer">
+          <source data-src="assets/video/web/day2-dunes.mp4" type="video/mp4" />
+        </video>
       </a>
       <p class="day-card-kicker">Day Two</p>
       <h3>Kuldhara Village &amp; Desert Safari</h3>
@@ -84,7 +97,11 @@
 
     <article class="day-card">
       <a href="#day-3" class="day-card-img-wrap">
-        <img src="assets/img/web/day3-camel.webp" alt="Camel safari at Sam Sand Dunes, Jaisalmer" loading="lazy" />
+        <video class="day-card-video lazy-video" muted loop playsinline
+          poster="assets/video/poster/day3-camel.webp"
+          aria-label="Camel safari at Sam Sand Dunes, Jaisalmer">
+          <source data-src="assets/video/web/day3-camel.mp4" type="video/mp4" />
+        </video>
       </a>
       <p class="day-card-kicker">Day Three</p>
       <h3>Sunrise &amp; Departure</h3>
@@ -99,7 +116,11 @@
     <!-- DAY 1 -->
     <section class="day-detail" id="day-1">
       <div class="day-detail-media">
-        <img src="assets/img/web/day1-gadisar.webp" alt="Gadisar Lake ghats in Jaisalmer" loading="lazy" />
+        <video class="day-detail-video lazy-video" muted loop playsinline
+          poster="assets/video/poster/hero-fort.webp"
+          aria-label="Jaisalmer Fort at golden hour">
+          <source data-src="assets/video/web/hero-fort.mp4" type="video/mp4" />
+        </video>
       </div>
       <div class="day-detail-body">
         <p class="day-detail-kicker">Day One</p>
@@ -171,7 +192,11 @@
     <!-- DAY 2 -->
     <section class="day-detail day-detail--reverse" id="day-2">
       <div class="day-detail-media">
-        <img src="assets/img/web/day2-kalbelia.webp" alt="Kalbelia folk dancer performing in the desert near Jaisalmer" loading="lazy" />
+        <video class="day-detail-video lazy-video" muted loop playsinline
+          poster="assets/video/poster/day2-kalbelia.webp"
+          aria-label="Kalbelia folk dancer performing in the desert near Jaisalmer">
+          <source data-src="assets/video/web/day2-kalbelia.mp4" type="video/mp4" />
+        </video>
       </div>
       <div class="day-detail-body">
         <p class="day-detail-kicker">Day Two</p>
@@ -244,7 +269,11 @@
     <!-- DAY 3 -->
     <section class="day-detail" id="day-3">
       <div class="day-detail-media">
-        <img src="assets/img/web/day3-sunrise.webp" alt="Sunrise over the Sam Sand Dunes near Jaisalmer" loading="lazy" />
+        <video class="day-detail-video lazy-video" muted loop playsinline
+          poster="assets/video/poster/day2-dunes.webp"
+          aria-label="Sunrise over the Sam Sand Dunes near Jaisalmer">
+          <source data-src="assets/video/web/day2-dunes.mp4" type="video/mp4" />
+        </video>
       </div>
       <div class="day-detail-body">
         <p class="day-detail-kicker">Day Three</p>
@@ -291,6 +320,62 @@
       </div>
     </section>
 
+    <!-- WHERE YOU'LL STAY -->
+    <section class="stay-types" id="stay-types">
+      <div class="stay-types-head">
+        <p class="intro-kicker">Three Ways to Sleep</p>
+        <h2>Where You'll Stay</h2>
+        <p class="stay-types-sum">Every route through Jaisalmer passes through one, two, or
+          all three of these — a city hotel, a family homestay, or a tent out on the dunes.
+          Each gives you a different version of the same desert.</p>
+      </div>
+
+      <div class="stay-types-grid">
+        <article class="stay-type-card">
+          <div class="stay-type-media">
+            <video class="lazy-video" muted loop playsinline
+              poster="assets/video/poster/stay-hotel.webp"
+              aria-label="A modern hotel room in Jaisalmer city">
+              <source data-src="assets/video/web/stay-hotel.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="stay-type-kicker">Hotel</p>
+          <h3>City Comfort</h3>
+          <p>A proper bed, air conditioning, and hot water after a day on your feet in the
+            fort — the practical base for your city night.</p>
+        </article>
+
+        <article class="stay-type-card">
+          <div class="stay-type-media">
+            <video class="lazy-video" muted loop playsinline
+              poster="assets/video/poster/stay-homestay.webp"
+              aria-label="A rural Rajasthani village and homestay setting">
+              <source data-src="assets/video/web/stay-homestay.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="stay-type-kicker">Homestay</p>
+          <h3>A Family's Table</h3>
+          <p>Stay with a local family on the edge of the city — home-cooked Rajasthani
+            meals, slower mornings, and a version of Jaisalmer that doesn't show up in a
+            brochure.</p>
+        </article>
+
+        <article class="stay-type-card">
+          <div class="stay-type-media">
+            <video class="lazy-video" muted loop playsinline
+              poster="assets/video/poster/stay-camp.webp"
+              aria-label="A desert tent camp at Sam Sand Dunes">
+              <source data-src="assets/video/web/stay-camp.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="stay-type-kicker">Camp</p>
+          <h3>Out on the Dunes</h3>
+          <p>A tent pitched where the sand runs out to the horizon — fire, folk music, and
+            more stars than you've seen in a while.</p>
+        </article>
+      </div>
+    </section>
+
     <!-- UPGRADES -->
     <section class="upgrades" id="upgrades">
       <div class="upgrades-head">
@@ -303,6 +388,9 @@
 
       <div class="upgrades-grid">
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/upgrades/fortuner.webp" alt="Toyota Fortuner, the upgraded safari vehicle" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Vehicle</p>
           <h3>Fortuner Safari</h3>
           <p>Swap the standard jeep for a Toyota Fortuner for the drive to Sam and back —
@@ -310,6 +398,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/upgrades/hilux.webp" alt="Toyota Hilux on a desert run" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Vehicle</p>
           <h3>Hilux Safari</h3>
           <p>A Toyota Hilux for the desert run, built for the dunes and the open road
@@ -317,6 +408,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/upgrades/jeep.webp" alt="Open-top jeep crossing desert sand dunes" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Vehicle</p>
           <h3>Jeep Safari</h3>
           <p>The classic open-top jeep safari through the dunes — closer to the sand, more
@@ -324,6 +418,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/web/day1-haveli.webp" alt="Sandstone architecture inside Jaisalmer Fort" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Stay</p>
           <h3>Living Fort Stay</h3>
           <p>Rooms inside the fort itself, with sunrise and sunset views over the ramparts
@@ -331,6 +428,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/upgrades/private-dune.webp" alt="A single quiet sand dune at sunset" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Desert</p>
           <h3>Private Dune</h3>
           <p>Your own stretch of dune, away from the shared safari routes — just your
@@ -338,6 +438,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/web/day2-kalbelia.webp" alt="Kalbelia folk dancer performing in the desert" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Desert</p>
           <h3>Private Cultural Programme</h3>
           <p>Folk music and Kalbelia dance performed for your group alone, rather than
@@ -345,6 +448,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/web/day3-camel.webp" alt="Camel safari through the Sam Sand Dunes" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Safari</p>
           <h3>1-Hour Desert &amp; Camel Safari</h3>
           <p>A full hour on camelback through the dunes, timed around the light for the
@@ -352,6 +458,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/web/day2-dunes.webp" alt="Sam Sand Dunes at sunset near Jaisalmer" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Stay</p>
           <h3>Private Dune Camp, Full Board</h3>
           <p>Stay out at a private dune camp with breakfast, lunch, and dinner served in
@@ -359,6 +468,9 @@
         </article>
 
         <article class="upgrade-card">
+          <div class="upgrade-card-img-wrap">
+            <img src="assets/img/upgrades/bonfire.webp" alt="A desert bonfire at night" loading="lazy" />
+          </div>
           <p class="upgrade-card-kicker">Evening</p>
           <h3>Bonfire Evenings</h3>
           <p>An evening bonfire with beverages available, including liquor, for those who
@@ -409,9 +521,43 @@
     <p class="footer-wordmark">Jaisalmer</p>
     <p class="footer-line">A route through the Golden City, built for two nights and three
       days.</p>
-    <p class="footer-credits">Photography via Wikimedia Commons, CC BY / CC BY-SA / CC0 —
+    <p class="footer-credits">Photography and video via Wikimedia Commons and Pexels —
       see <a href="assets/img/CREDITS.md">credits</a>.</p>
   </footer>
+
+  <script>
+    (function () {
+      if (!('IntersectionObserver' in window)) {
+        document.querySelectorAll('.lazy-video source[data-src]').forEach(function (source) {
+          source.src = source.dataset.src;
+          var video = source.closest('video');
+          video.load();
+          video.play().catch(function () {});
+        });
+        return;
+      }
+
+      var observer = new IntersectionObserver(function (entries, obs) {
+        entries.forEach(function (entry) {
+          var video = entry.target;
+          if (entry.isIntersecting) {
+            var source = video.querySelector('source[data-src]');
+            if (source) {
+              source.src = source.dataset.src;
+              video.load();
+            }
+            video.play().catch(function () {});
+          } else {
+            video.pause();
+          }
+        });
+      }, { rootMargin: '200px 0px' });
+
+      document.querySelectorAll('.lazy-video').forEach(function (video) {
+        observer.observe(video);
+      });
+    })();
+  </script>
 
 </body>
 </html>
